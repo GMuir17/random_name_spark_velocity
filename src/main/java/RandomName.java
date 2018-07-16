@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Random;
 
 public class RandomName {
@@ -42,4 +43,16 @@ public class RandomName {
         return results;
     }
 
+    public ArrayList<String> getThreeRandomNames() {
+        ArrayList<String> results = new ArrayList<>();
+        String name1 = getRandomName();
+        String name2 = getRandomName();
+        String name3 = getRandomName();
+
+        results.add(name1);
+        results.add(name2);
+        results.add(name3);
+
+        return results;
+    }
 }

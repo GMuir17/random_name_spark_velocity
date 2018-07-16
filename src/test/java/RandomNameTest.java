@@ -24,5 +24,10 @@ public class RandomNameTest {
         assertEquals(2, randomName.getTwoRandomNames().size());
     }
 
+    @Test
+    public void canReturnAnArrayOfThreeRandomnames() {
+        assertEquals(3, randomName.getThreeRandomNames().size());
+    }
+
 
 }
