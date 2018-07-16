@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 
 public class RandomName {
 
@@ -16,5 +17,16 @@ public class RandomName {
 
     public ArrayList<String> getNames() {
         return names;
+    }
+
+    public String getRandomName() {
+        String result = null;
+
+        Random rand = new Random();
+        int index = rand.nextInt(names.size() - 1) + 0;
+
+        result = names.remove(index);
+
+        return result;
     }
 }

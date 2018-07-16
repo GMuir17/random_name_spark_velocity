@@ -237,6 +237,17 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RandomNameTest_hasArrayListOfNames - 2018.07.16 at 15h 36m 54s.xml">
+      <configuration name="RandomNameTest.hasArrayListOfNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomNameTest_hasArrayListOfNames - 2018.07.16 at 15h 38m 31s.xml">
+      <configuration name="RandomNameTest.hasArrayListOfNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomNameTest_hasArrayListOfNames - 2018.07.16 at 15h 38m 56s.xml">
+      <configuration name="RandomNameTest.hasArrayListOfNames" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
