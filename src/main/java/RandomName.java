@@ -5,6 +5,7 @@ public class RandomName {
     private ArrayList<String> names;
 
     public RandomName() {
+        this.names = new ArrayList<String>();
         names.add("Gaius");
         names.add("Crassus");
         names.add("Brutus");
@@ -13,6 +14,7 @@ public class RandomName {
         names.add("Marcus");
     }
 
-
-
+    public ArrayList<String> getNames() {
+        return names;
+    }
 }
