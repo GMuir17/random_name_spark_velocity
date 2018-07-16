@@ -17,15 +17,17 @@ public class NameController {
         get("/:number", (req, res) -> {
             int numberOfNames = Integer.parseInt(req.params(":number"));
             ArrayList<String> names = randomNames.getXRandomNames(numberOfNames);
+            int x = names.size();
 
             HashMap<String, Object> model = new HashMap<>();
             model.put("names", names);
+            model.put("x", x);
 
             return new ModelAndView(model, "name.vtl");
         }, velocityTemplateEngine);
 
 
-
+// all redundant now unless you only want the name 'one' instead of symbol '1', etc
 
         get("/one", (req, res) -> {
 
