@@ -55,4 +55,19 @@ public class RandomName {
 
         return results;
     }
+
+    public ArrayList<String> getFourRandomNames() {
+        ArrayList<String> results = new ArrayList<>();
+        String name1 = getRandomName();
+        String name2 = getRandomName();
+        String name3 = getRandomName();
+        String name4 = getRandomName();
+
+        results.add(name1);
+        results.add(name2);
+        results.add(name3);
+        results.add(name4);
+
+        return results;
+    }
 }
