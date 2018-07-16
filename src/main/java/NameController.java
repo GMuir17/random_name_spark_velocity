@@ -33,7 +33,15 @@ public class NameController {
             return new ModelAndView(model, "two.vtl");
         }, velocityTemplateEngine);
 
+        get("/three", (req, res) -> {
 
+            ArrayList<String> names = randomNames.getThreeRandomNames();
+
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("names", names);
+
+            return new ModelAndView(model, "three.vtl");
+        }, velocityTemplateEngine);
 
 
 

@@ -202,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RandomNameTest.canReturnAnArrayOfThreeRandomnames">
+  <component name="RunManager" selected="Application.NameController">
     <configuration name="NameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NameController" />
       <module name="velocity_random_names" />
@@ -308,8 +308,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfThreeRandomnames" />
         <item itemvalue="Application.NameController" />
+        <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfThreeRandomnames" />
         <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfTwoRandomNames" />
         <item itemvalue="JUnit.RandomNameTest.hasArrayListOfNames" />
       </list>
