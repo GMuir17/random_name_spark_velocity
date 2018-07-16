@@ -1,6 +1,8 @@
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 
+import javax.jws.WebParam;
+import java.util.ArrayList;
 import java.util.HashMap;
 import static spark.Spark.get;
 
@@ -21,7 +23,15 @@ public class NameController {
             return new ModelAndView(model, "one.vtl");
         }, velocityTemplateEngine);
 
+        get("/two", (req, res) -> {
 
+            ArrayList<String> names = randomNames.getTwoRandomNames();
+
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("names", names);
+
+            return new ModelAndView(model, "two.vtl");
+        }, velocityTemplateEngine);
 
 
 

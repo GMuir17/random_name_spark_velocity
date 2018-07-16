@@ -23,9 +23,11 @@ public class RandomName {
         String result = null;
 
         Random rand = new Random();
-        int index = rand.nextInt(names.size() - 1);
+        int index = rand.nextInt(names.size());
 
         result = names.remove(index);
+        names.add(result);
+
         return result;
     }
 
