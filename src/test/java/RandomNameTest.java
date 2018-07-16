@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class RandomNameTest {
@@ -15,6 +17,11 @@ public class RandomNameTest {
     @Test
     public void hasArrayListOfNames() {
         assertEquals(6, randomName.getNames().size());
+    }
+
+    @Test
+    public void canReturnAnArrayOfTwoRandomNames() {
+        assertEquals(2, randomName.getTwoRandomNames().size());
     }
 
 

@@ -23,10 +23,21 @@ public class RandomName {
         String result = null;
 
         Random rand = new Random();
-        int index = rand.nextInt(names.size() - 1) + 0;
+        int index = rand.nextInt(names.size() - 1);
 
         result = names.remove(index);
-
         return result;
     }
+
+    public ArrayList<String> getTwoRandomNames() {
+        ArrayList<String> results = new ArrayList<>();
+        String name1 = getRandomName();
+        String name2 = getRandomName();
+
+        results.add(name1);
+        results.add(name2);
+
+        return results;
+    }
+
 }
