@@ -70,4 +70,18 @@ public class RandomName {
 
         return results;
     }
+
+    public ArrayList<String> getXRandomNames(int x) {
+        ArrayList<String> results = new ArrayList<>();
+
+        int counter = 0;
+
+        while (x > counter) {
+            String name = getRandomName();
+            results.add(name);
+            counter += 1;
+        }
+
+        return results;
+    }
 }

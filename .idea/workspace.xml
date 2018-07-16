@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4af62b-7950-4798-9fe8-1ced23dbf35f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RandomName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RandomName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RandomNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RandomNameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,87 +15,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomName.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RandomName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NameController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="three.vtl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/three.vtl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="two.vtl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/two.vtl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomNameTest.java" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="RandomNameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RandomNameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+            <state relative-caret-position="423">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="four.vtl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/four.vtl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.vtl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test.vtl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -119,11 +53,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/one.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/two.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/three.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/four.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.vtl" />
+        <option value="$PROJECT_DIR$/src/main/java/NameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/RandomName.java" />
         <option value="$PROJECT_DIR$/src/test/java/RandomNameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/four.vtl" />
-        <option value="$PROJECT_DIR$/src/main/java/NameController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test.vtl" />
       </list>
     </option>
   </component>
@@ -216,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NameController">
+  <component name="RunManager" selected="JUnit.RandomNameTest">
     <configuration name="NameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NameController" />
       <module name="velocity_random_names" />
@@ -276,13 +210,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RandomNameTest.hasArrayListOfNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomNameTest.canReturnAnArrayOfXRandomNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="velocity_random_names" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RandomNameTest" />
-      <option name="METHOD_NAME" value="hasArrayListOfNames" />
+      <option name="METHOD_NAME" value="canReturnAnArrayOfXRandomNames" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -332,19 +266,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RandomNameTest.hasArrayListOfNames" />
       <item itemvalue="Application.NameController" />
       <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfTwoRandomNames" />
       <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfThreeRandomnames" />
       <item itemvalue="JUnit.RandomNameTest" />
+      <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfXRandomNames" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NameController" />
         <item itemvalue="JUnit.RandomNameTest" />
+        <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfXRandomNames" />
+        <item itemvalue="Application.NameController" />
         <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfThreeRandomnames" />
         <item itemvalue="JUnit.RandomNameTest.canReturnAnArrayOfTwoRandomNames" />
-        <item itemvalue="JUnit.RandomNameTest.hasArrayListOfNames" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +339,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
@@ -455,17 +389,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/two.vtl">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RandomName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        <state relative-caret-position="310">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
@@ -474,54 +408,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RandomNameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        <state relative-caret-position="1812">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/three.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-45">
           <caret column="10" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NameController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/two.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="4" column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/four.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="45">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.vtl">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RandomNameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="423">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

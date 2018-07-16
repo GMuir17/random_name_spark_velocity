@@ -33,4 +33,17 @@ public class RandomNameTest {
     public void canReturnAnArrayOfFourRandomNames() {
         assertEquals(4, randomName.getFourRandomNames().size());
     }
+
+    @Test
+    public void canReturnAnArrayOfXRandomNamesForXEquals3() {
+        int actual = randomName.getXRandomNames(3).size();
+        assertEquals(3, actual);
+    }
+
+    @Test
+    public void canReturnAnArrayOfXRandomNamesForXEquals7() {
+        int actual = randomName.getXRandomNames(7).size();
+        assertEquals(7, actual);
+    }
+
 }
