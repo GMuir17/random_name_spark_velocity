@@ -54,10 +54,5 @@ public class NameController {
         }, velocityTemplateEngine);
 
 
-
-
-
-
-
     }
 }
