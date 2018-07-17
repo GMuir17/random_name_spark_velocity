@@ -20,21 +20,6 @@ public class RandomNameTest {
     }
 
     @Test
-    public void canReturnAnArrayOfTwoRandomNames() {
-        assertEquals(2, randomName.getTwoRandomNames().size());
-    }
-
-    @Test
-    public void canReturnAnArrayOfThreeRandomNames() {
-        assertEquals(3, randomName.getThreeRandomNames().size());
-    }
-
-    @Test
-    public void canReturnAnArrayOfFourRandomNames() {
-        assertEquals(4, randomName.getFourRandomNames().size());
-    }
-
-    @Test
     public void canReturnAnArrayOfXRandomNamesForXEquals3() {
         int actual = randomName.getXRandomNames(3).size();
         assertEquals(3, actual);

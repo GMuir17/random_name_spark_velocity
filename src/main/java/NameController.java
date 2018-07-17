@@ -16,6 +16,7 @@ public class NameController {
 
         get("/:number", (req, res) -> {
             int numberOfNames = Integer.parseInt(req.params(":number"));
+
             ArrayList<String> names = randomNames.getXRandomNames(numberOfNames);
             int x = names.size();
 
@@ -25,50 +26,6 @@ public class NameController {
 
             return new ModelAndView(model, "name.vtl");
         }, velocityTemplateEngine);
-
-
-// all redundant now unless you only want the name 'one' instead of symbol '1', etc
-
-        get("/one", (req, res) -> {
-
-            String name = randomNames.getRandomName();
-
-            HashMap<String, Object> model = new HashMap<>();
-            model.put("name", name);
-
-            return new ModelAndView(model, "one.vtl");
-        }, velocityTemplateEngine);
-
-        get("/two", (req, res) -> {
-
-            ArrayList<String> names = randomNames.getTwoRandomNames();
-
-            HashMap<String, Object> model = new HashMap<>();
-            model.put("names", names);
-
-            return new ModelAndView(model, "two.vtl");
-        }, velocityTemplateEngine);
-
-        get("/three", (req, res) -> {
-
-            ArrayList<String> names = randomNames.getThreeRandomNames();
-
-            HashMap<String, Object> model = new HashMap<>();
-            model.put("names", names);
-
-            return new ModelAndView(model, "three.vtl");
-        }, velocityTemplateEngine);
-
-        get("/four", (req, res) -> {
-
-            ArrayList<String> names = randomNames.getFourRandomNames();
-
-            HashMap<String, Object> model = new HashMap<>();
-            model.put("names", names);
-
-            return new ModelAndView(model, "three.vtl");
-        }, velocityTemplateEngine);
-
 
     }
 }
